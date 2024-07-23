@@ -1,0 +1,43 @@
+body { 
+font-family: sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vw;
+
+overflow: hidden;
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+z-index: 1;
+
+}
+
+
+
+
+
+
+
+
+.background{
+  background: url('./love.png') no-repeat ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+
+}
+
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+}
